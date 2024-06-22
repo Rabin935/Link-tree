@@ -4,3 +4,134 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body {
+    height: 100vh;
+    background-color: #fff;
+    background-image: url(image/cute.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+img{
+    border-radius: 600px;
+    width: 150px;
+    height: 150px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto ;
+    /* margin: 60px auto; */
+    display: block;
+}
+
+.name{
+    color: #fff;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+li{
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.insta{
+    position: relative;
+    top: 20px;
+    width: 440px;
+    height: 5vh;
+    border-radius: 8px;
+    border: 2px solid;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px;
+    transition: 0.4s;
+}
+.insta:hover{
+    width: 440px;
+    height: 5vh;
+    border-radius: 8px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid;
+    /* overflow: hidden; */
+
+}
+
+.insta:hover a{
+    color: #fff;
+}
+.yt{
+    position: relative;
+    top: 30px;
+    width: 440px;
+    height: 5vh;
+    border-radius: 8px;
+    border: 2px solid;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px;
+    transition: 0.4s;
+}
+.yt:hover{
+    width: 440px;
+    height: 5vh;
+    border-radius: 8px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid;
+    /* overflow: hidden; */
+
+}
+
+.yt:hover a{
+    color: #fff;
+}
+.snap{
+    position: relative;
+    top: 40px;
+    width: 440px;
+    height: 5vh;
+    border-radius: 8px;
+    border: 2px solid;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px;
+    transition: 0.4s;
+}
+.snap:hover{
+    width: 440px;
+    height: 5vh;
+    border-radius: 8px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid;
+    /* overflow: hidden; */
+
+}
+
+.snap:hover a{
+    color: #fff;
+}
+
+@media  (max-width: 460px){
+    .insta, .yt,
+    .snap {
+        width: 340px;
+        height: 5vh;
+    }
+}
+@media  (max-width: 360px){
+    .insta, .yt,
+    .snap {
+        width: 240px;
+        height: 5vh;
+    }
+}
